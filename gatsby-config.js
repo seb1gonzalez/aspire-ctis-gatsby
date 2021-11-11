@@ -1,7 +1,11 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "aspire-ctis-gatsby",
+    siteUrl: "https://aspire.utep.edu",
+    title: "ASPIRE",
   },
-  plugins: [],
+  plugins: [
+    `gatsby-plugin-sitemap`,
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp"
+  ],
 };
